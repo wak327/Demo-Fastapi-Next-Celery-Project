@@ -9,7 +9,7 @@ interface LayoutProps {
 const Layout = ({ title, children }: LayoutProps) => (
   <div className="min-h-screen">
     <Head>
-      <title>{title ? `${title} · Campaign Scheduler` : "Campaign Scheduler"}</title>
+      <title>{title ? `${title} - Campaign Scheduler` : "Campaign Scheduler"}</title>
     </Head>
     <main className="mx-auto max-w-4xl px-4 py-12">{children}</main>
   </div>
